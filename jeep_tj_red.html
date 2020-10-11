@@ -4,16 +4,37 @@
         <meta charset="utf-8">
         <title>2002 Jeep Wrangler TJ 2.5L Red</title>
         <style>
-            .header {
+            header {
                 background-color: lightblue;
+                border-radius: 10px;
+                margin: auto;
+                width: 100%;
             }
-            .body {
+            .navigation-bar {
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .page-container {
+                display: flex;
+                flex-direction: row;
+                margin: auto;
+                width: 98%;
+            }
+            .page-text {
+                padding-left: 5px;
+            }
+            body {
                 background-color: indianred;
             }
-            .h1 {
+            h1 {
                 text-align: center;
             }
-
+            a {
+                color: black;
+            }
+            .album {
+                width: 50%;
+            }
         </style>
     </head>
     <header>
@@ -30,6 +51,25 @@
         <h1>
             2002 Jeep Wrangler TJ 2.5L Red
         </h1>
+        <div class="page-container">
+            <div class="album">
+                <img src="Pictures/glens_jeep.jpg" alt="Red Jeep TJ with one black door, and headlight shimmer" class="photo">
+                <img src="Pictures/jeep_steeringWheel.JPG" alt="Inside Glen's Jeep" class="photo">
+                <img src="Pictures/jeep_oilChange.jpeg" alt="Mobil-One Oil Change" class="photo">
+            </div>
+            <div class="page-text">
+                <div class="history">
+                    <h3>History:</h3>
+                </div>
+                <div class="stats">
+                    <h3>Stats!</h3>
+                    <ul>
+                        <li>Starting Mileage: 44,250</li>
+                        <li>Current Mileage: 54,000</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
     </body>
     <footer>
