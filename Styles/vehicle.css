@@ -34,4 +34,10 @@
             .photo {
                 width: 100%;
             }
+            ul h5 {
+                line-height: 10px;
+            }
+            #mod {
+                line-height: 50px;
+            }
     
