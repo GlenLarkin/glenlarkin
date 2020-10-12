@@ -26,7 +26,6 @@ body {
  display: flex;
  flex-direction: column;
  background-color: rgb(128, 70, 136);
- width: 100%;
  min-width: 750px;
 }
 h1 {
