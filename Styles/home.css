@@ -1,4 +1,5 @@
 html {
+    background-color: rebeccapurple;
     width: 100%;
     box-sizing: border-box;
 }
@@ -28,9 +29,6 @@ html {
 #title {
     color: white
 }
-body {
-    background-color: rebeccapurple;
-}
 h1 {
  color: black;
 }
@@ -53,5 +51,6 @@ img {
 .album {
     display: flex;
 }
+
 
 
