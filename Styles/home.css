@@ -2,7 +2,8 @@
 .title-div  {
  display: flex;
  background-color: pink;
- 
+ border-radius: 10px;
+ width: 100%;
 }
 .profile-picture {
  height: 100px;
@@ -20,8 +21,12 @@
  justify-content: space-between;
  text-align: right;
 }
+#title {
+    color: white
+}
 body {
     background-color: rebeccapurple;
+    width: 98%;
 }
 h1 {
  color: black;
