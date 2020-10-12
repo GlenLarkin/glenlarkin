@@ -3,7 +3,7 @@
             background-color: grey;
             border-radius: 10px;
             width: 100%;
-            margin: auto;
+            
         }
         body {
     background-color: rgb(50 150 130);
@@ -19,7 +19,7 @@
         }
         .title-pic {
             display: flex;
-
+            justify-content: center;
         }
         .vehicle {
             width: 90%;
