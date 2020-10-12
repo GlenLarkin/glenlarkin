@@ -27,6 +27,7 @@ padding: 2%;
 body {
     background-color: rebeccapurple;
     width: 98%;
+    padding-left: 5px;
 }
 h1 {
  color: black;
