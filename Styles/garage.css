@@ -27,6 +27,8 @@
         }
         .album {
             height: 200px;
+            display: flex;
+            justify-content: center;
         }
         .photo {
             height: 200px;
