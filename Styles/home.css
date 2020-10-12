@@ -2,11 +2,9 @@
 .title-div  {
  display: flex;
  background-color: pink;
- border-radius: 10px;
- padding: 2%;
- width: 99%;
+ 
 }
-header .profile-picture {
+.profile-picture {
  height: 100px;
  width: 100px;
  padding: 10px;
@@ -15,7 +13,7 @@ header .profile-picture {
 .profile {
  margin-left: 2px;
 }
-header .social-links {
+.social-links {
  display: flex;
  margin-left: auto;
  flex-direction: column;
@@ -23,10 +21,7 @@ header .social-links {
  text-align: right;
 }
 body {
- display: flex;
- flex-direction: column;
- background-color: rgb(128, 70, 136);
- min-width: 750px;
+    background-color: rebeccapurple;
 }
 h1 {
  color: black;
@@ -43,15 +38,5 @@ ul {
 a {
  color: black;
 }
-#title{
- color: white;
-}
-.body-container {
- text-emphasis: none;
-}
-.album {
- display: flex;
- margin: auto;
- padding: 20px;
- width: 100%;
-}
+
+
