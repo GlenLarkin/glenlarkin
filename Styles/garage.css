@@ -11,6 +11,9 @@
         .specs {
             display: flex;
             justify-content: space-evenly;
+            flex-direction: column;
+            margin: 10px;
+            min-width: 125px;
         }
         .navigation-bar {
             display: flex;
@@ -24,6 +27,12 @@
         .vehicle {
             width: 90%;
             margin: auto;
+            display: flex;
+        }
+        .vehicle h2 {
+            margin: 10px;
+            min-width: 250px;
+            color: white;
         }
         .album {
             height: 200px;
