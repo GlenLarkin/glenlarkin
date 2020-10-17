@@ -41,6 +41,13 @@
         }
         .photo {
             height: 200px;
+            border: 5px solid black;
+        }
+        .gif {
+            width: 260px; /* width of container */
+            height: 200px; /* height of container */
+            object-fit: cover;
+            border: 5px solid black; 
         }
         a {
             color: black;
