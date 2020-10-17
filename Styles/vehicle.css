@@ -1,6 +1,6 @@
 
             header {
-                background-color: lightblue;
+                background-color: rgb(255, 255, 255);
                 border-radius: 10px;
                 margin: auto;
                 width: 100%;
@@ -20,7 +20,7 @@
                 width: 50%;
             }
             body {
-                background-color: burlywood;
+                background-color: rgb(72, 183, 187);
             }
             h1 {
                 text-align: center;
