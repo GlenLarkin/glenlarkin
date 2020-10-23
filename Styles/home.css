@@ -1,7 +1,6 @@
 html {
-    background-color: rebeccapurple;
+    background-color: rgb(131, 80, 182);
     width: 100%;
-    box-sizing: border-box;
 }
 .title-div  {
  display: flex;
@@ -29,8 +28,16 @@ html {
 #title {
     color: white
 }
+main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 .body-container {
-    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
 }
 h1 {
  color: black;
@@ -56,6 +63,22 @@ img {
     width: 100%;
     margin: 5px;
 }
+input {
+    height: 20px;
+    width: 500px;
+    box-sizing: border-box;
+}
+textarea {
+    height: 150px;
+    background-color: black;
+    width: 500px;
+    
+}
+.photo-column {
+    width: 300px; 
+    height: 200px; /* height of container */
+    object-fit: cover;
 
+}
 
 
