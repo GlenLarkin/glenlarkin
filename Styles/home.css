@@ -54,10 +54,6 @@ ul {
 a {
  color: black;
 }
-img {
-    display: block;
-    max-width: 100%;
-}
 .album {
     display: flex;
     width: 100%;
@@ -65,7 +61,8 @@ img {
 }
 input {
     height: 20px;
-    width: 500px;
+    max-width: 500px;
+    min-width: 100px;
     box-sizing: border-box;
 }
 textarea {
@@ -75,9 +72,9 @@ textarea {
     
 }
 .photo-column {
-    width: 300px; 
-    height: 200px; /* height of container */
-    object-fit: cover;
+    width: 250px; 
+    overflow: hidden;
+    margin: 10px;
 
 }
 
