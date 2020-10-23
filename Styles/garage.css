@@ -26,8 +26,8 @@
         }
         .vehicle {
             width: 90%;
-            margin: auto;
             display: flex;
+         
         }
         .vehicle h2 {
             margin: 10px;
@@ -56,8 +56,8 @@
         }
         .description {
             display: flexbox;
-            justify-content: space-around;
             font-size: larger;
+            min-width: 30%;
         }
   @media screen and (max-width: 800px) {
       header {
