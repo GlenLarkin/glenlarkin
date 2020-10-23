@@ -35,13 +35,14 @@
             color: white;
         }
         .album {
-            height: 200px;
             display: flex;
             justify-content: center;
+            flex-direction: column;
         }
-        .photo {
-            height: 200px;
+        img {
+            height: 300px;
             border: 5px solid black;
+            overflow: hidden;
         }
         .gif {
             width: 260px; /* width of container */
