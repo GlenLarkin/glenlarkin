@@ -59,9 +59,9 @@
             justify-content: space-around;
             font-size: larger;
         }
-  @media screen and (max-width: 481px) {
+  @media screen and (max-width: 800px) {
       header {
-          background-color: black;
+          background-color: green;
       }
       img {
           width: 100%;
