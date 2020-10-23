@@ -13,7 +13,7 @@
             justify-content: space-evenly;
             flex-direction: column;
             margin: 10px;
-            min-width: 125px;
+            min-width: 25%;
         }
         .navigation-bar {
             display: flex;
@@ -41,6 +41,7 @@
         }
         img {
             height: 300px;
+            
             border: 5px solid black;
             overflow: hidden;
         }
@@ -53,4 +54,16 @@
         a {
             color: black;
         }
-  
+        .description {
+            display: flexbox;
+            justify-content: space-around;
+            font-size: larger;
+        }
+  @media screen and (max-width: 481px) {
+      header {
+          background-color: black;
+      }
+      img {
+          width: 100%;
+      }
+  }
