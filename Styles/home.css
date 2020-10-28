@@ -2,6 +2,37 @@ html {
     background-color: rgb(131, 80, 182);
     width: 100%;
 }
+main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+h1 {
+ color: black;
+}
+h2 {
+ color: black;
+}
+p {
+ color: white;
+ }
+ul {
+ color: white;
+}
+a {
+ color: black;
+}
+input {
+    height: 20px;
+    max-width: 500px;
+    min-width: 100px;
+    box-sizing: border-box;
+}
+textarea {
+    height: 150px;
+    background-color: black;
+    width: 500px;
+}
 .title-div  {
  display: flex;
  background-color: pink;
@@ -28,31 +59,11 @@ html {
 #title {
     color: white
 }
-main {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
 .body-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 10px;
-}
-h1 {
- color: black;
-}
-h2 {
- color: black;
-}
-p {
- color: white;
- }
-ul {
- color: white;
-}
-a {
- color: black;
 }
 .album {
     display: flex;
@@ -63,23 +74,11 @@ a {
     display: flex;
     flex-direction: column;
 }
-input {
-    height: 20px;
-    max-width: 500px;
-    min-width: 100px;
-    box-sizing: border-box;
-}
-textarea {
-    height: 150px;
-    background-color: black;
-    width: 500px;
-    
-}
 .photo-column {
     width: 250px; 
     overflow: hidden;
     margin: 10px;
-
 }
+
 
 
