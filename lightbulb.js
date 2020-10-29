@@ -1,4 +1,4 @@
 function lightOn() {
     
-        document.getElementById('album').src="lando_hat.jpeg";
+        document.getElementById('album').src="/pictures/lando_hat.jpeg";
 }
