@@ -63,7 +63,8 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .album {
     display: flex;
