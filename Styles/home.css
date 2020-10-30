@@ -1,6 +1,8 @@
 #html {
-    background-color: rgb(131, 80, 182);
     width: 100%;
+}
+body {
+    background-color: rgb(131, 80, 182);
 }
 main {
     display: flex;
