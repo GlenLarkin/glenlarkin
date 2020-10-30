@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript PlayGround</title>
-    <link rel="stylesheet" type="text/css" href="/Styles/home.css">
+    <link rel="stylesheet" type="text/css" href="/Styles/playground.css">
     <script src="/Javascript/lightbulb.js"  async defer></script>
     <script src="/Javascript/background.js" async defer></script>
+    <script src="/Javascript/alert.js"></script>
 </head>
 <body>
     <header>
@@ -36,35 +37,34 @@
           </div>
     </header>
     <main>
-        <div class="photo-column">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <div class="body-container">
+        
+        <div class="row1">
+          <div class="feature">
             <button onclick="landoOn()">Change photo to Lando</button>
 
             <img id="myImage" src="/Pictures/cM250_Pickup.jpeg" style="width:100px">
             
             <button onclick="document.getElementById('myImage').src='/Pictures/glens_jeep.jpg'">Change photo to Jeep</button>
-        </div>
-        <div>
+          </div>
+          <div class="feature">
             <label>Change Webpage Background To:</label>
             <button type="button" onclick="changeBodyBg('yellow');">Yellow</button>
             <button type="button" onclick="changeBodyBg('lime');">Lime</button>
             <button type="button" onclick="changeBodyBg('orange');">Orange</button>
-        </div>
-        <br>
-        <div>
+          </div>
+
+          <div class="feature">
           <label>Change Heading Background To:</label>
           <button type="button" onclick="changeHeadingBg('red');">Red</button>
           <button type="button" onclick="changeHeadingBg('green');">Green</button>
           <button type="button" onclick="changeHeadingBg('blue');">Blue</button>
+          </div>
+        </div>
+    <div class="row2">
+      <div class="feature">
+        <button onclick="helloAlert()">Say Hello!</button>
+        <button onclick="addVars()">10 + 20</button>
       </div>
-        <div class="photo-column">
-            <div></div>
-            <div></div>
-            <div></div>
         </div>
     </main>
     <footer>
