@@ -9,6 +9,9 @@
     <script src="/Javascript/background.js" async defer></script>
     <script src="/Javascript/alert.js"></script>
     <script src="/Javascript/windowDimensions.js"></script>
+    <script src="/Javascript/getResolution.js"></script>
+    <script src="/Javascript/forceReload.js"></script>
+    <script src="/Javascript/nameEntry.js"></script>
 </head>
 <body>
     <header>
@@ -65,7 +68,13 @@
       <div class="feature">
         <button onclick="helloAlert()">Say Hello!</button>
         <button onclick="addVars()">10 + 20</button>
+        <button onclick="enterName()">Enter your Name</button>
+        <h3 id="name-box"></h3>
+      </div>
+      <div class="feature">
         <button type="button" onclick="windowSize();">Window Dimensions</button>
+        <button type="button" onclick="getResolution()">Display Resoluton</button>
+        <button type="button" onclick="forceReload()">Refresh Page</button>
       </div>
         </div>
     </main>
