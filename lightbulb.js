@@ -1,3 +1,3 @@
-function lightOn() {
-        document.getElementsByClassName("photo").src="/pictures/lando_hat.jpeg";
+function landoOn() {
+        document.getElementById("lando").src="/Pictures/lando_hat.jpeg";
 }
