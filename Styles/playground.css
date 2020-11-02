@@ -1,4 +1,4 @@
-#html {
+html {
     width: 100%;
 }
 body {
@@ -29,6 +29,9 @@ textarea {
     height: 150px;
     background-color: black;
     width: 500px;
+}
+label {
+    margin: 5px;
 }
 .title-div  {
  display: flex;
@@ -71,7 +74,8 @@ textarea {
 
 .feature {
     display: flex;
-
+    background-color: pink;
+    border-radius: 10px;
     justify-content: center;
     flex-direction: column;
     position: relative;
@@ -81,6 +85,7 @@ textarea {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin: 10px;
 }
 .row2 {
     display: flex;
