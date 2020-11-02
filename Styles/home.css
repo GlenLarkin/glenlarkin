@@ -65,8 +65,11 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 200px;
-    margin-right: 200px;
+   margin-left: 25px;
+   margin-right: 25px;
+}
+.bioCollection {
+    display: flex;
 }
 .album {
     display: flex;
@@ -82,12 +85,33 @@ textarea {
     overflow: hidden;
     margin: 10px;
 }
+
+   /* Mobile navigation */
+   .nav-mobile {
+     display: none;
+     position: absolute;
+     top: 0;
+     right: 0;
+     background: #6d7993;
+     height: 70px;
+     width: 70px;
+   }
+   
+   @media only screen and (max-width: 798px) {
+     .nav-mobile {
+       display: block;
+     }
+    
 @media screen and (max-width: 800px) {
     .body-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin: 15px;
+    }
+    .bioCollection {
+        display: flex;
+        flex-direction: column;
     }
 }
 
