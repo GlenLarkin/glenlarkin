@@ -5,13 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript PlayGround</title>
     <link rel="stylesheet" type="text/css" href="/Styles/playground.css">
-    <script src="/Javascript/lightbulb.js"  async defer></script>
+    <script src="/Javascript/photoChanger.js"  async defer></script>
     <script src="/Javascript/background.js" async defer></script>
     <script src="/Javascript/alert.js"></script>
     <script src="/Javascript/windowDimensions.js"></script>
-    <script src="/Javascript/getResolution.js"></script>
     <script src="/Javascript/forceReload.js"></script>
-    <script src="/Javascript/nameEntry.js"></script>
 </head>
 <body>
     <header>
@@ -48,7 +46,7 @@
 
             <img id="myImage" src="/Pictures/cM250_Pickup.jpeg" style="width:200px">
             
-            <button onclick="document.getElementById('myImage').src='/Pictures/glens_jeep.jpg'">Change photo to Jeep</button>
+            <button onclick="jeepOn()">Change photo to Jeep</button>
           </div>
           <div class="feature">
             <label>Change Webpage Background To:</label>
