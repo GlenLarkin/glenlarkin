@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/Styles/garage.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="title-pic">
+      <h1>Format and Assign a Hard Drive</h1>
+      
+  </div>
+  <div class="navigation-bar">
+      <a href="/index.html">Home</a>
+      <a href="/playground.html">Javascript</a>
+      <a href="#">Biography</a>
+      <a href="/contact.html">Contact Me</a>
+  </div>
+  </header>
+  <p>
+  <code>DISKPART> <strong>list disk</strong>
+    <table>
+      <tr>
+        <th>###</th>
+        <th>Status</th>
+        <th>Size</th>
+        <th>Free</th>
+        <th>Dyn</th>
+        <th>Gpt</th>
+      </tr>
+      <tr>
+        <td>--------</td>
+        <td>-------------</td>
+        <td>---------</td>
+        <td>-------</td>
+        <td>-----</td>
+        <td>-----</td>
+      </tr>
+        <tr>
+          <td>Disk 0</td>
+          <td>Online</td>
+          <td>931 GB</td>
+          <td>0 B</td>
+          <td></td>
+          <td>*</td>
+        </tr>
+        <tr>
+          <td>Disk 2</td>
+          <td>Online</td>
+          <td>465 GB</td>
+          <td>0 B</td>
+          <td></td>
+          <td>*</td>
+        </tr>
+        <tr>
+          <td>Disk 2</td>
+          <td>No Media</td>
+          <td>0 B</td>
+          <td>0 B</td>
+          <td></td>
+          <td></td>
+        </tr>
+    </table>
+    <br>
+  DISKPART> <strong>select disk 1</strong><br>
+  <br>
+  Disk 1 is now the selected disk.<br>
+  <br>
+  DISKPART> <strong>clean</strong><br>
+  <br>
+  DiskPart succeeded in cleaning the disk.<br>
+  <br>
+  DISKPART> <strong>partition primary</strong><br>
+  <br>
+  DiskPart succeeded in creating the specified partition.<br>
+  <br>
+  DISKPART> <strong>select partition 1</strong><br>
+  <br>
+  Partition 1 is now the selected partition.<br>
+  <br>
+  DISKPART> <strong>active</strong><br>
+  <br>
+  DiskPart marked the current partition as active.<br>
+  <br>
+  DISKPART> <strong>format FS=NTFS label=LocalDisk quick</strong><br>
+  <br>
+    1...100 percent completed<br>
+    <br>
+  DiskPart successfully formatted the volume.<br>
+  <br>
+  DISKPART> <strong>assign letter=d</strong><br>
+  <br>
+  DiskPart successfully assigned the drive letter or mount point.<br>
+  <br>
+  DISKPART><strong>exit</strong></code>
+</p>
+</body>
+</html>
