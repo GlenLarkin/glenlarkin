@@ -1,0 +1,120 @@
+#html {
+    width: 100%;
+}
+body {
+    background-color: rgb(131, 80, 182);
+}
+main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+h1 {
+ color: black;
+}
+h2 {
+ color: black;
+}
+p {
+ color: white;
+ }
+ul {
+ color: white;
+}
+a {
+ color: black;
+}
+input {
+    height: 20px;
+    max-width: 500px;
+    min-width: 100px;
+    box-sizing: border-box;
+}
+textarea {
+    height: 150px;
+    background-color: black;
+    width: 500px;
+}
+.title-div  {
+ display: flex;
+ background-color: pink;
+ border-radius: 10px;
+ padding: 2%;
+ min-width: 750px;
+}
+.profile-picture {
+ height: 100px;
+ width: 100px;
+ padding: 10px;
+ border-radius: 100px;
+}
+.profile {
+ margin-left: 2px;
+}
+.social-links {
+ display: flex;
+ margin-left: auto;
+ flex-direction: column;
+ justify-content: space-between;
+ text-align: right;
+}
+#title {
+    color: white
+}
+.body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   margin-left: 25px;
+   margin-right: 25px;
+}
+.bioCollection {
+    display: flex;
+}
+.album {
+    display: flex;
+    width: 100%;
+    margin: 5px;
+}
+.nameAndDetail {
+    display: flex;
+    flex-direction: column;
+}
+.photo-column {
+    width: 250px; 
+    overflow: hidden;
+    margin: 10px;
+}
+
+   /* Mobile navigation */
+   .nav-mobile {
+     display: none;
+     position: absolute;
+     top: 0;
+     right: 0;
+     background: #6d7993;
+     height: 70px;
+     width: 70px;
+   }
+  .donate {
+      margin: auto;
+  }
+   
+   @media only screen and (max-width: 798px) {
+     .nav-mobile {
+       display: block;
+     }
+    
+@media screen and (max-width: 800px) {
+    .body-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 15px;
+    }
+    .bioCollection {
+        display: flex;
+        flex-direction: column;
+    }
+}
+}
