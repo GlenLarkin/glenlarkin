@@ -2,7 +2,7 @@
     width: 100%;
 }
 body {
-    background-color: rgb(131, 80, 182);
+    background-color: rgb(51, 102, 177);
 }
 main {
     display: flex;
@@ -29,10 +29,12 @@ code {
     justify-content: center;
     width: 100%;
     display: flex;
+    background-color: lightgrey;
+    border-radius: 10px;
 }
 .title-div  {
  display: flex;
- background-color: pink;
+ background-color: lightgrey;
  border-radius: 10px;
  padding: 2%;
  min-width: 750px;
