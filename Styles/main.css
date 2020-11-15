@@ -24,16 +24,11 @@ ul {
 a {
  color: black;
 }
-input {
-    height: 20px;
-    max-width: 500px;
-    min-width: 100px;
-    box-sizing: border-box;
-}
-textarea {
-    height: 150px;
-    background-color: black;
-    width: 500px;
+code {
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    display: flex;
 }
 .title-div  {
  display: flex;
@@ -68,38 +63,6 @@ textarea {
    margin-left: 25px;
    margin-right: 25px;
 }
-.bioCollection {
-    display: flex;
-}
-.album {
-    display: flex;
-    width: 100%;
-    margin: 5px;
-}
-.nameAndDetail {
-    display: flex;
-    flex-direction: column;
-}
-.photo-column {
-    width: 250px; 
-    overflow: hidden;
-    margin: 10px;
-}
-
-   /* Mobile navigation */
-   .nav-mobile {
-     display: none;
-     position: absolute;
-     top: 0;
-     right: 0;
-     background: #6d7993;
-     height: 70px;
-     width: 70px;
-   }
-  .donate {
-      margin: auto;
-  }
-   
    @media only screen and (max-width: 798px) {
      .nav-mobile {
        display: block;
