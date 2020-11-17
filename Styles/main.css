@@ -15,6 +15,8 @@ h1 {
 }
 h2 {
  color: black;
+ margin-top: 5px;
+ margin-bottom: 5px;
 }
 p {
  color: white;
@@ -36,6 +38,9 @@ code {
 h4 {
     margin: 0px;
     color: white;
+}
+ul {
+    margin: 2px;
 }
 .title-div  {
  display: flex;
@@ -73,7 +78,8 @@ h4 {
     justify-content: center;
    margin-left: 25px;
    margin-right: 25px;
-   margin-bottom: 15px;
+   margin-bottom: 20px;
+   margin-top: 15px;
 }
 .bioCollection .bio-container {
     display: flex;
