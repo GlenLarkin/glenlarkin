@@ -33,6 +33,10 @@ code {
     background-color: lightgrey;
     border-radius: 10px;
 }
+h4 {
+    margin: 0px;
+    color: white;
+}
 .title-div  {
  display: flex;
  background-color: lightgrey;
@@ -59,12 +63,24 @@ code {
 #title {
     color: white
 }
+.bioCollection {
+    display: flex;
+    flex-direction: row;
+}
 .body-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
    margin-left: 25px;
    margin-right: 25px;
+   margin-bottom: 15px;
+}
+.bioCollection .bio-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
 }
    @media only screen and (max-width: 798px) {
      .nav-mobile {
@@ -72,11 +88,15 @@ code {
      }
     
 @media screen and (max-width: 800px) {
-    .body-container{
+    .body-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin: 15px;
+    }
+    .bio-container {
+        display: flex;
+        flex-direction: column;
     }
     .bioCollection {
         display: flex;
