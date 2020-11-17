@@ -1,4 +1,7 @@
 
+        html {
+            font-family: Arial;
+        }
         header {
             background-color: white;
             border-radius: 10px;

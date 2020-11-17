@@ -1,5 +1,6 @@
-#html {
+html {
     width: 100%;
+    font-family: Arial;
 }
 body {
     background-color: rgb(51, 102, 177);
