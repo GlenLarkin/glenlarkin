@@ -8,7 +8,7 @@
             width: 100%;
         }
         body {
-            background-color: tomato;
+            background-color: rgb(216, 23, 23);
         }
         .specs {
             display: flex;
