@@ -61,9 +61,9 @@
             min-width: 30%;
         }
   @media screen and (max-width: 800px) {
-      header {
+      /* header {
           background-color: green;
-      }
+      }*/
       img {
           width: 100%;
       }
