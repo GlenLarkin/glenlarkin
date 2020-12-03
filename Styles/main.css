@@ -42,6 +42,12 @@ h4 {
 ul {
     margin: 2px;
 }
+.partner {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+  
+}
 .title-div  {
  display: flex;
  background-color: lightgrey;
