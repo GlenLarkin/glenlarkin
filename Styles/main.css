@@ -63,7 +63,7 @@ img {
  background-color: lightgrey;
  border-radius: 10px;
  padding: 2%;
- min-width: 750px;
+ min-width: 400px;
 }
 .profile-picture {
  height: 100px;
@@ -104,12 +104,8 @@ img {
     margin-right: 25px;
     margin-bottom: 15px;
 }
-   @media only screen and (max-width: 798px) {
-     .nav-mobile {
-       display: block;
-     }
     
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
     .body-container {
         display: flex;
         flex-direction: column;
@@ -123,6 +119,9 @@ img {
     .bioCollection {
         display: flex;
         flex-direction: column;
+    }
+    html {
+        text-size-adjust: 80%;
     }
 }
 }
