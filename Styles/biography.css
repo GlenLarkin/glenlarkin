@@ -3,11 +3,12 @@ html {
 }
 body {
     background-color: rgb(131, 80, 182);
+    padding: 0;
+    margin:0;
 }
 main {
     display: flex;
     width: 100%;
-    justify-content: center;
 }
 h1 {
  color: black;
@@ -31,9 +32,21 @@ input {
     box-sizing: border-box;
 }
 textarea {
-    height: 150px;
     background-color: black;
-    width: 500px;
+    width: 100%;
+    
+    resize: none;
+    height: 450px;
+}
+input {
+    width: 150px;
+}
+img {
+    height: 200px;
+    object-fit: cover;
+
+  width: 399px;
+  
 }
 .title-div  {
  display: flex;
@@ -65,8 +78,7 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: center;
-   margin-left: 25px;
-   margin-right: 25px;
+   margin: 15px;
 }
 .bioCollection {
     display: flex;
@@ -74,16 +86,14 @@ textarea {
 .album {
     display: flex;
     width: 100%;
-    margin: 5px;
-}
+    }
 .nameAndDetail {
     display: flex;
     flex-direction: column;
 }
 .photo-column {
-    width: 250px; 
-    overflow: hidden;
-    margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
    /* Mobile navigation */
@@ -115,6 +125,9 @@ textarea {
     .bioCollection {
         display: flex;
         flex-direction: column;
+    }
+    img {
+        width: 100px;
     }
 }
 }
