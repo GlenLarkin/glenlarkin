@@ -8,7 +8,7 @@
             width: 100%;
         }
         body {
-            background-color: rgb(216, 23, 23);
+            background-color: rgb(0, 200, 200);
         }
         .specs {
             display: flex;
@@ -59,6 +59,9 @@
             display: flex;
             font-size: larger;
             min-width: 30%;
+            
+            justify-content: center;
+            align-items: center;
         }
   @media screen and (max-width: 800px) {
       /* header {
