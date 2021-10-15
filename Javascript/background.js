@@ -7,8 +7,3 @@ function changeBodyBg(color){
 function changeHeadingBg(color){
     document.getElementById("heading").style.background = color;
 }
-
-// Function to change feature background color
-function changeFeatureBg(color){
-    document.getElementsByClassName("feature").style.background = color;
-}
