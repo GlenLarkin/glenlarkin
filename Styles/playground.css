@@ -36,7 +36,7 @@ label {
 }
 .title-div  {
  display: flex;
- background-color: pink;
+ background-color: rgb(255, 0, 212);
  border-radius: 10px;
  padding: 2%;
  min-width: 750px;
@@ -75,7 +75,7 @@ label {
 
 .feature {
     display: flex;
-    background-color: pink;
+    background-color: rgb(255, 0, 212);
     border-radius: 10px;
     justify-content: center;
     flex-direction: column;
